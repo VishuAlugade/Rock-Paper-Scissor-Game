@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    background-color: #023047;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    color: #fff;
+    font-size: 1.2rem;
+}
+.choices{
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+    align-items: center;
+    gap: 2rem;
+}
+.choices img{
+    height: 25vh;
+    width: 25vh;  
+}
+.choices img:hover{
+    height: 27vh;
+    width: 27vh;
+}
+.score{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    gap: 3rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+#user-score {
+    font-size: 2rem;
+    margin-bottom: 2px;
+}
+#comp-score {
+    font-size: 2rem;
+    margin-bottom: 2px;
+}
+.play-btn{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.play-btn button{
+    padding: 15px 40px;
+    border-radius: 5px;
+    border: none;
+    background-color: #023047;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+}
